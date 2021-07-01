@@ -1,15 +1,15 @@
-/**
-* Template Name: Kelly - v4.1.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
 (function() {
   "use strict";
 
-  /**
+
+
+
+ /**
    * Easy selector helper function
    */
+
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -128,11 +128,31 @@
     });
   }
 
+
+    /**
+   * Hero type effect
+   */
+     const typed = select('.typed')
+     if (typed) {
+       let typed_strings = typed.getAttribute('data-typed-items')
+       typed_strings = typed_strings.split(',')
+       new Typed('.typed', {
+         strings: typed_strings,
+         loop: true,
+         typeSpeed: 95,
+         backSpeed: 35,
+         backDelay: 1200
+       });
+     }
+  
+
   /**
    * Porfolio isotope and filter
+   * 
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
+    
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item'
@@ -158,6 +178,8 @@
 
   });
 
+
+ 
   /**
    * Initiate portfolio lightbox 
    */
@@ -165,14 +187,31 @@
     selector: '.portfolio-lightbox'
   });
 
+/**
+   * Initiate gallery lightbox 
+   */
+ const galleryLightbox = GLightbox({
+  selector: '.gallery-lightbox'
+});
+
+/**
+   * Initiate  video lightbox 
+   */
+ const videoLightbox = GLightbox({
+  selector: '.video-lightbox'
+});
+
+
+
   /**
    * Initiate portfolio details lightbox 
    */
   const portfolioDetailsLightbox = GLightbox({
     selector: '.portfolio-details-lightbox',
     width: '90%',
-    height: '90vh'
+    height: '93vh'
   });
+  
 
   /**
    * Portfolio details slider
@@ -181,7 +220,7 @@
     speed: 400,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 2100,
       disableOnInteraction: false
     },
     pagination: {
@@ -215,7 +254,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 2200,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -226,6 +265,7 @@
     }
   });
 
+  
   /**
    * Animation on scroll
    */
@@ -239,3 +279,5 @@
   });
 
 })()
+
+
