@@ -804,11 +804,11 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 44px;
     line-height: 36px;
-    color: #000000;
+    color: #00000000;
     font-weight: 660;
   }
   #hero h1 span{
-    color: #bb3232;
+    color: #bb323200;
   }
   #hero h2 {
     font-size: 19px;
