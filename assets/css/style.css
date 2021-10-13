@@ -588,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(224, 222, 222, 0.809);
+  background: rgba(224, 222, 222, 0.197);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -793,7 +793,7 @@ h1, h2, h3, h4, h5, h6 {
   
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.054);
+    background: rgba(255, 255, 255, 0.102);
     position: absolute;
     bottom: 0;
     top: 0;
