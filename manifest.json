@@ -54,7 +54,7 @@
     }
    ],
 
-    "start_url": "http://127.0.0.1:5500/",
+    "start_url": "https://rohitrathodd.github.io/",
     "display": "standalone",
     "scope": "/",
     "theme_color": "#000000",
