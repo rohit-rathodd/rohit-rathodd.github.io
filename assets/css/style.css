@@ -335,6 +335,17 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     line-height: 0px;
     transition: 0.3s;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-social-links a {
+    color: #ffffff;
+    padding-left: 1px;
+    display: inline-block;
+    line-height: 0px;
+    transition: 0.3s;
     font-size: 16px;
   }
 }
@@ -346,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     line-height: 0px;
     transition: 0.3s;
-    font-size: 15px;
+    font-size: 15.5px;
   }
 }
 
@@ -357,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     line-height: 0px;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 14.5px;
   }
 }
 
@@ -680,25 +691,26 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero {
   width: 100%;
-  background: url("../img/home/rohitrathod.jpg")center center;
+  background: url("../img/home/rohit-home.jpg")top left;
   position: relative;
-  padding: 100px 0 0 0;
+  padding: 120px 0 0 0;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
-  background-position: 50% 40%;
+  background-position: 50% 140%;
   background-attachment: fixed;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.102);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
 }
+
 
 
 #hero .animated {
@@ -712,12 +724,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 600px) {
+
   #hero {
     background: url("../img/home/rohitrathodd.jpg");
     position: relative;
     background-size: cover;
     background-position: auto ;
     background-attachment: fixed;
+  }
+  #hero:before {
+    content: "";
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   #hero .animated {
     -webkit-animation: none;
@@ -876,7 +898,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #5b5454;
+  color: #fff700;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -938,7 +960,7 @@ h1, h2, h3, h4, h5, h6 {
   
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.088);
+    background: rgba(255, 255, 255, 0.027);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -959,7 +981,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 19px;
     margin-top: 10px;
     line-height: 24px;
-    color: #343434;
+    color: #ffd900;
   }
   #hero p {
     margin-top: 30px;
