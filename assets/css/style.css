@@ -13,7 +13,8 @@
   font-display: swap;
   font-display: auto;
   }
-  
+
+
 .whatIdo-img-div{align-items:center;justify-content:center}
 
 @media (max-width: 992px) {
@@ -3035,8 +3036,16 @@ section {
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
+  padding: 0.44em;
 }
-
+.gallery-item {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgb(0, 0, 0);
+  padding: 0.11em;
+}
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
