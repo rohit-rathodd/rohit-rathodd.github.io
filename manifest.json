@@ -2,6 +2,7 @@
     "short_name": "Rohit Rathod",
     "name": "Rohit Rathod - A Student",
     "description":"I am Rohit Rathod, A student who loves to code.",
+    
     "icons": [
     {
      "src": "/assets/img/icon-36.jpg",
@@ -59,5 +60,5 @@
     "scope": "/",
     "theme_color": "#000000",
     "background_color": "black"
-  
+    
   }

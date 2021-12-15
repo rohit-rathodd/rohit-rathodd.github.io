@@ -12,9 +12,19 @@
   src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");
   font-display: swap;
   font-display: auto;
-  }
+}
 
+@font-face{
+  font-family: "Roboto";
+  src: '../assets/vendor/bootstrap-icons/fonts/Roboto-Regular.ttf';
+ 
+}
 
+:root{
+  /* font family variables. */ 
+  --roboto: 'Roboto', cursive;
+  
+} 
 .whatIdo-img-div{align-items:center;justify-content:center}
 
 @media (max-width: 992px) {
@@ -111,8 +121,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: rgba(255, 255, 255, 0.149);
-overflow-x: hidden;
+  background-color: rgba(255, 219, 219, 0.056);
+  overflow-x: hidden;
  
 }
 
@@ -245,13 +255,14 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a {
   color: #b5afaf;
   padding: 0px;
+  font-family: "roboto", cursive;
 }
 
 #header .logo span {
   color: #c92a2a;
   font-family:'Times New Roman', Times, serif;
   padding-right: 3px;
-  font-size: 26px;
+  font-size: 12px;
 }
 
 #header .logo img {
@@ -270,7 +281,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #header .logo a {
-    font-size: 18px;
+    font-size: 19px;
+    font-family: "roboto", cursive;
   }
 }
 
@@ -301,6 +313,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0px;
     transition: 0.3s;
     font-size: 20px;
+    
   }
 }
 
@@ -427,6 +440,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
   padding: 0;
+  font-family: "roboto", cursive;
 }
 
 .navbar ul {
@@ -447,16 +461,17 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  font-family: "roboto", cursive;
 }
 
 .navbar a i {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -692,7 +707,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero {
   width: 100%;
-  background: url("../img/home/rohit-home.jpg")top left;
+  background: url("../img/home/rohitrathod.jpg")top left;
   position: relative;
   padding: 120px 0 0 0;
   background-size: cover;
@@ -887,11 +902,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 52px;
+  font-size: 56px;
   font-weight: 600;
   line-height: 56px;
   color: #000000;
- 
+  font: normal bold 58px/ 62px var(--roboto);
 }
 
 #hero h1 span{
@@ -899,17 +914,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #fff700;
+  color: #000000;
   margin: 10px 0 0 0;
   font-size: 22px;
+  font: oblique 550 22px/ 32px var(--roboto);
+  
 }
 
 #hero p {
   color: #b31010;
   margin: 27px 0 0 0;
   font-size: 30px;
-  font-family: "Poppins", sans-serif;
+  
   margin-bottom: 41px;
+  font: oblique 550 22px/ 32px var(--roboto);
 }
 
 #hero p span {
@@ -927,6 +945,7 @@ h1, h2, h3, h4, h5, h6 {
   border:  solid transparent;
   border-radius: 39px;
   margin-top: 9px;
+  font-family: "roboto", cursive;
 
 }
 
@@ -972,23 +991,23 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 44px;
     line-height: 36px;
-    color: #ff000036;
+    color: #000000;
     font-weight: 660;
   }
   #hero h1 span{
-    color: #bb323271;
+    color: #bb3232;
   }
   #hero h2 {
     font-size: 19px;
     margin-top: 10px;
     line-height: 24px;
-    color: #ffd900;
+    color: #000000;
   }
   #hero p {
     margin-top: 30px;
     font-size: 24px;
     line-height: 24px;
-    color: #b31010;
+    color:#bb3232;
   }
 }
 
@@ -1001,6 +1020,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 39px;
   margin-top: 13px;
   margin-bottom: 4px;
+  font-family: "roboto", cursive;
 }
 
 .button.primary-button{
@@ -1009,6 +1029,7 @@ h1, h2, h3, h4, h5, h6 {
   color: whitesmoke;
   transition: .6s ease;
   box-shadow: 0px 10px 30px #c8233368;
+  font-family: "roboto", cursive;
 }
 
 .button.primary-button:hover{
@@ -1060,6 +1081,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
   color: #000000;
+  
 }
 
 .section-title h2 {
@@ -1069,6 +1091,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  font-family: "roboto", cursive;
 }
 
 .section-title h2::after {
@@ -1207,6 +1230,7 @@ section {
   color: #dc3545;
   padding-bottom: 6px;
   padding-top: 0px;
+  font-family: "roboto", cursive;
 }
 
 
@@ -1217,6 +1241,7 @@ section {
   color: #000000;
   padding-bottom: 10px;
   line-height: 38px;
+  font-family: "roboto", cursive;
 }
 
 .about .content ul {
@@ -1249,6 +1274,7 @@ section {
   border-radius: 39px;
   margin-top: 10px;
   margin-bottom: 4px;
+  font-family: "roboto", cursive;
 }
 
 .btn-about {
@@ -1265,6 +1291,7 @@ section {
   margin-bottom: 4px;
   color: rgb(0, 0, 0);
   background:linear-gradient(90deg, #e6717d 6%, #ffffff 100%);
+  font-family: "roboto", cursive;
 }
 
  .btn-about:hover {
@@ -1335,6 +1362,7 @@ section {
   background: #ffffff00;;
   margin-top: 8px;
   box-shadow: 0 0 0 1px rgb(0, 0, 0);
+  
  
 }
 
@@ -1661,6 +1689,7 @@ section {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #222222;
+  
 }
 
 .skills .info i {
@@ -1688,6 +1717,7 @@ section {
   margin-top: 0px;
   margin-right: 8px;
   padding-bottom: 29px;
+  
 }
 
 .skills .social-links i:hover {
@@ -1735,6 +1765,7 @@ section {
   justify-content: center;
   width: 48px;
   height: 48px;
+  
 }
 
 .facts .count-box span {
@@ -1742,12 +1773,13 @@ section {
   display: block;
   font-weight: 600;
   color: #011426;
+  font-family: "roboto", cursive;
 }
 
 .facts .count-box p {
   padding: 0;
   margin:0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto", cursive;
   font-size: 14px;
 }
 
@@ -1774,12 +1806,14 @@ section {
   font-weight: bold;
   margin: 8px 0 5px 0;
   color: #111;
+  font-family: "roboto", cursive;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 17px 0;
+  font-family: "roboto", cursive;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
@@ -1870,7 +1904,7 @@ section {
 
 
 .btn-education {
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto", cursive;
   text-transform: uppercase;
    font-weight: 600;
   font-size: 12px;
@@ -1883,6 +1917,7 @@ section {
   margin-bottom: 11px;
   color: rgb(0, 0, 0);
   background: linear-gradient(90deg, #e6717d 6%, #ffffff 100%);
+
 }
  .btn-education:hover {
   color: rgb(0, 0, 0);
@@ -1900,6 +1935,7 @@ section {
   padding-top: 50px;
   padding-bottom: 0px;
   position: relative;
+  font-family: "roboto", cursive;
 }
 
 .resume-title p {
@@ -1907,6 +1943,7 @@ section {
   padding-top: 0px;
   padding-bottom: 90px;
   text-align: center;
+  
 
 }
 
@@ -1921,6 +1958,7 @@ section {
   margin-bottom: 10px;
   padding-bottom: 5px;
   padding-top: 0px;
+  
 }
 
 .resume .resume-item h4 {
@@ -1991,6 +2029,7 @@ section {
   margin-top: 0px;
   margin-right: 8px;
   padding-bottom: 29px;
+  
 }
 
 .resume .social-links i:hover {
@@ -2016,6 +2055,7 @@ section {
   padding-top: 0px;
   padding-bottom: 0px;
   position: relative;
+  font-family: "roboto", cursive;
 }
 
 
@@ -2177,6 +2217,7 @@ section {
   line-height: 1;
   font-size: 16px;
   color: rgb(0, 0, 0);
+  font-family: "roboto", cursive;
 }
 
 .interests .icon-box:hover {
@@ -2208,6 +2249,7 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
+  
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -2266,6 +2308,7 @@ section {
   font-size: 26px;
   color: #fff;
   font-weight: 600;
+  font-family: "roboto", cursive;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -2275,6 +2318,7 @@ section {
   padding: 0;
   margin: 0;
   font-style: italic;
+  font-family: "roboto", cursive;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -2496,7 +2540,7 @@ section {
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 8px;
-
+  font-family: "roboto", cursive;
   position: relative;
 }
 
@@ -2506,7 +2550,7 @@ section {
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 20px;
-
+  font-family: "roboto", cursive;
   position: relative;
 }
 
@@ -2693,25 +2737,29 @@ section {
   font-size: .7rem;
   letter-spacing: .1px;
   margin-bottom: 0;
+  font-family: "roboto", cursive;
 }
 
 .card-blog .card-title {
   font-size: 1.3rem;
   margin-top: .6rem;
-}
+  }
 
 .card-blog .card-description {
   color: #4e4e4e;
+  
 }
 
 .card-blog .post-author {
   display: inline-block;
+  font-family: "roboto", cursive;
 }
 
 
 .card-blog .post-date {
   color: #4e4e4e;
   float: right;
+  font-family: "roboto", cursive;
 }
 
 
@@ -2719,7 +2767,6 @@ section {
   padding: 0 0 0 0px;
   font-size: 18px;
   font-weight: 600;margin-top: 10px;
-
   margin-bottom: 0px;
   color: #222222;
 }
@@ -2752,11 +2799,9 @@ section {
 }
 
 .blog-mf .social-links i:hover {
-  background: #c82333;
+  background: #e07f7f;
   color: #ffffff;
 }
-
-
 
 
 @-webkit-keyframes animate-loading {
@@ -2786,15 +2831,18 @@ section {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
+  font-family: "roboto", cursive;
 }
 
 #footer .credits {
   padding-top: 5px;
   font-size: 1px;
+  font-family: "roboto", cursive;
 }
 
 #footer .credits a {
   color: #e07f7f;
+  font-family: "roboto", cursive;
 }
 
 
@@ -2888,13 +2936,16 @@ section {
   -ms-flex-pack:end;
   display:-ms-flexbox;
   display:flex;
-  justify-content:flex-end
+  justify-content:flex-end;
+  font-family: "roboto", cursive;
 }
 
 .hire-area .hire-title{
   color:#f0f0f0;
   font-weight:700;
-  margin-bottom:14px
+  margin-bottom:14px;
+  font-family: "roboto", cursive;
+  
 }
 
 .hire-area .hire-description{
@@ -2904,7 +2955,7 @@ section {
 }
 
 .hire-area .hire-btn
-{padding:12px 54px
+{ padding:12px 54px
 }
 
 
@@ -2944,6 +2995,7 @@ section {
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
+  font-family: "roboto", cursive;
 }
 
 .team .member .member-info-content span {
@@ -2951,6 +3003,7 @@ section {
   display: block;
   font-size: 13px;
   color: #fff;
+  font-family: "roboto", cursive;
 }
 
 .team .member .social {
@@ -3016,13 +3069,46 @@ section {
 .certs-body-div{display:flex;justify-content:space-between;flex-wrap:wrap}
 @media (max-width:1380px){.certs-header{font-size:35px}}
 
-@media (max-width:768px){.certs-body-div{flex-direction:column}.certs-header{font-size:30px}}.cert-card{width:30%;display:inline-block;justify-content:center;align-items:center;text-align:center;border:1px solid #d9dbdf;border-radius:5px;box-shadow:5px 5px 5px #d9dbdf;margin-bottom:30px;flex:0 0 30%}.cert-header{margin:0;border-radius:5px 5px 0 0}.logo_img{margin:3px;width:auto;height:100px}.cert-body{margin:0}.cert-body-title{font-size:20px}.cert-body-subtitle,.cert-body-title{font-family:Google Sans Regular;margin:10px}.cert-body-subtitle{font-size:18px;color:grey}.content-cert{position:relative;width:100%;margin:auto;overflow:hidden}.content-cert .content-overlay{background:rgba(0,0,0,.7);position:absolute;height:99%;width:100%;left:0;top:0;bottom:0;right:0;opacity:0;transition:all .4s ease-in-out 0s}.content-cert:hover .content-overlay{opacity:1}.content-details{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;opacity:0;transform:translate(-50%,-50%);transition:all .3s ease-in-out 0s}.content-cert:hover .content-details{top:50%;left:50%;opacity:1}.content-details h3{color:#fff;font-weight:500;font-family:Google Sans Regular;letter-spacing:.15em;margin-bottom:.5em;text-transform:uppercase}.fadeIn-top{top:20%}@media (max-width:768px){.cert-card{width:100%}}
+@media (max-width:768px){.certs-body-div{flex-direction:column}.certs-header{font-size:30px}}.cert-card{width:30%;display:inline-block;justify-content:center;align-items:center;text-align:center;border:1px solid #d9dbdf;border-radius:5px;box-shadow:5px 5px 5px #d9dbdf;margin-bottom:30px;flex:0 0 30%}.cert-header{margin:0;border-radius:5px 5px 0 0}.logo_img{margin:3px;width:auto;height:100px}.cert-body{margin:0}.cert-body-title{font-size:20px}.cert-body-subtitle,.cert-body-title{font-family: "Poppins", sans-serif;}.cert-body-subtitle{color:grey}.content-cert{position:relative;width:100%;margin:auto;overflow:hidden}.content-cert .content-overlay{background:rgba(0,0,0,.7);position:absolute;height:99%;width:100%;left:0;top:0;bottom:0;right:0;opacity:0;transition:all .4s ease-in-out 0s}.content-cert:hover .content-overlay{opacity:1}.content-details{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;opacity:0;transform:translate(-50%,-50%);transition:all .3s ease-in-out 0s}.content-cert:hover .content-details{top:50%;left:50%;opacity:1}.content-details h3{color:#fff;font-weight:500;font-family:Google Sans Regular;letter-spacing:.15em;margin-bottom:.5em;text-transform:uppercase}.fadeIn-top{top:20%}@media (max-width:768px){.cert-card{width:100%}}
 
 .organizations-header{font-size:40px;line-height:1.1;font-family:Google Sans Regular;text-align:center;margin-left:10px;margin-right:10px}@media (max-width:1380px){.organizations-header{font-size:35px}}@media (max-width:768px){.organizations-header{font-size:25px}}.dev-icons-orgs{padding-left:0;list-style:none;font-size:3rem;margin:50px 50px 0;text-align:center}.organizations-img{width:100px;height:auto}.organizations-inline{display:inline-block;margin-right:50px;margin-bottom:50px;font-family:Google Sans Regular}.organizations-inline:hover{transform:translateY(-5px)}@media (max-width:768px){.organizations-img{width:60px}.dev-icons-orgs{margin-left:20px;margin-right:20px}.organizations-inline{margin-right:30px;margin-bottom:30px}}
 .software-skill-inline{display:inline-block;margin-right:20px;margin-bottom:20px;font-family:Google Sans Regular}.software-skill-inline>i{color:#868e96}.software-skill-inline>i:hover{color:#645beb}.footer-text{text-align:center;font-weight:700;font-family:Google Sans Regular}
 .experience-card{width:100%;margin-bottom:20px;border-radius:10px;display:flex;flex-direction:row}.experience-card-logo-div{margin:10px}.experience-card-body-div{width:100%}.experience-card-header-div{display:flex;flex-direction:row}.experience-card-logo{width:70px}.experience-card-title{font-family:Google Sans Regular;margin:10px 7px 2px 0;text-align:left}.experience-card-company{font-family:Google Sans Regular;margin:0;text-align:left}.experience-card-duration{font-family:Google Sans Regular;margin:10px 0 2px;text-align:right;color:#868e96}.experience-card-heading-left{float:left;margin-left:10px;margin-right:auto}.experience-card-heading-right{float:right;margin-left:auto;margin-right:10px}.experience-card-location{font-family:Google Sans Regular;margin:0;text-align:right;color:#868e96}.experience-card-description{margin-top:5px;margin-left:10px;text-align:justify;margin-right:20px;font-family:Google Sans Regular}.experience-card-company>a{position:relative;color:#000;text-decoration:none}.experience-card-company>a:hover{color:#000}.experience-card-company>a:hover:before{visibility:visible;transform:scaleX(1)}.experience-card-company>a:before{content:"";position:absolute;width:100%;height:1px;bottom:0;left:0;background-color:#000;visibility:hidden;transform:scaleX(0);transition:all .3s ease-in-out 0s}@media (max-width:768px){.experience-card{margin-bottom:10px;flex-direction:column;text-align:center}.experience-card-logo{width:100px}.experience-card-heading-left,.experience-card-heading-right{float:center;margin-left:auto;margin-right:auto}.experience-card-company,.experience-card-title{text-align:center}.experience-card-duration{margin-top:2px;text-align:center}.experience-card-location{text-align:center}.experience-card-header-div{flex-direction:column}.experience-card-description{margin-left:14px;margin-right:14px;text-align:justify}}.experience-accord{margin:50px}.accord-panel{font-family:Google Sans Regular}@media (max-width:768px){.experience-accord{margin:20px}}.experience-main{width:100vw}.basic-experience{margin-left:5%;margin-right:5%}.experience-heading-div{display:flex}.experience-heading-div>*{flex:1 1}.experience-heading-img-div{align-items:center;justify-content:center}.experience-heading-text-div{text-align:center}.experience-heading-img-div>*{max-width:100%;height:auto}.experience-heading-text{font-size:56px;font-weight:400;font-family:Google Sans Medium;line-height:1.1;text-align:center;margin-top:80px}.experience-heading-sub-text{font-size:30px;font-family:Google Sans Regular;text-align:center;margin-bottom:10px}.experience-header-detail-text{font-size:20px;line-height:30px;margin-top:0;margin-left:20px;margin-right:20px;font-family:Google Sans Medium}@media (max-width:1380px){.experience-heading-text{font-size:50px;margin-top:80px}.experience-heading-sub-text{font-size:25px}}@media (max-width:768px){.experience-heading-text{font-size:30px;margin-top:20px}.experience-heading-sub-text{font-size:20px}.experience-heading-div{flex-direction:column}.experience-header-detail-text{font-size:16px;margin-right:0;line-height:normal;text-align:center}}
 
-.blog-heading-div,.contact-heading-div{display:flex}.address-heading-div{display:flex;margin-top:80px}.address-heading-div>*,.blog-heading-div>*,.contact-heading-div>*{flex:1 1}.blog-heading-img-div,.contact-heading-img-div{align-items:center;justify-content:center}.address-heading-text-div,.blog-heading-text-div,.contact-heading-text-div{text-align:center}.blog-heading-img-div>*,.contact-heading-img-div>*{max-width:100%;height:auto}.contact-heading-text{margin-top:60px}.blog-heading-text,.contact-heading-text{font-size:56px;font-weight:400;font-family:Google Sans Medium;line-height:1.1;text-align:center}.blog-heading-text{margin-top:40px}.address-heading-text{font-size:30px;font-family:Google Sans Regular;text-align:center;margin-bottom:10px}.blog-header-detail-text,.contact-header-detail-text{font-size:20px;line-height:30px;margin-top:0;margin-left:20px;margin-right:20px;font-family:Google Sans Medium}.address-btn-div,.blogsite-btn-div,.resume-btn-div{width:100%;display:flex;justify-content:center}.address-btn-div{margin-top:0}@media (max-width:1380px){.contact-heading-text{font-size:50px;margin-top:60px}.blog-heading-text{font-size:50px;margin-top:40px}}@media (max-width:767px){.blog-heading-text,.contact-heading-text{font-size:40px;margin-top:0}.address-heading-text{font-size:20px}.blog-heading-div{flex-direction:column-reverse;margin-top:60px}.address-heading-div{flex-direction:column;margin-top:60px}.address-heading-text-div,.blog-heading-text-div{margin-top:40px}.contact-heading-div{flex-direction:column}.blog-header-detail-text,.contact-header-detail-text{font-size:18px;margin-left:0;margin-right:0;line-height:normal;text-align:center}}
+.blog-heading-div,.contact-heading-div{
+  display:flex
+}
+.address-heading-div{display:flex;margin-top:80px}
+
+.address-heading-div>*,.blog-heading-div>*,.contact-heading-div>*{flex:1 1}
+.blog-heading-img-div,.contact-heading-img-div{align-items:center;justify-content:center}
+.address-heading-text-div,.blog-heading-text-div,.contact-heading-text-div{text-align:center}
+.blog-heading-img-div>*,.contact-heading-img-div>*{max-width:100%;height:auto}
+.contact-heading-text{margin-top:60px}
+
+.blog-heading-text,.contact-heading-text{
+  font-size:56px;font-family: "Poppins", sans-serif;;text-align:center
+}
+.blog-heading-text{margin-top:40px}
+.address-heading-text{font-size:30px;font-family: "Poppins", sans-serif;text-align:center;margin-bottom:10px}
+.blog-header-detail-text,.contact-header-detail-text{margin-top:0;margin-left:20px;margin-right:20px;font-family: "Poppins", sans-serif;}
+.address-btn-div,.blogsite-btn-div,.resume-btn-div{width:100%;display:flex;justify-content:center}
+.address-btn-div{margin-top:0}
+
+@media (max-width:1380px){
+  .contact-heading-text{font-size:50px;margin-top:60px}
+  .blog-heading-text{font-size:50px;margin-top:40px}
+}
+
+@media (max-width:767px){
+  .blog-heading-text,.contact-heading-text{font-size:40px;margin-top:0}
+  .address-heading-text{font-size:20px}
+  .blog-heading-div{flex-direction:column-reverse;margin-top:60px}
+  .address-heading-div{flex-direction:column;margin-top:60px}
+  .address-heading-text-div,.blog-heading-text-div{margin-top:40px}
+  .contact-heading-div{flex-direction:column}
+  .blog-header-detail-text,.contact-header-detail-text{margin-left:0;margin-right:0;text-align:center}
+}
 
 
 /*--------------------------------------------------------------
