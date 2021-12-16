@@ -16,13 +16,15 @@
 
 @font-face{
   font-family: "Roboto";
-  src: '../assets/vendor/bootstrap-icons/fonts/Roboto-Regular.ttf';
- 
+  src: url(../vendor/bootstrap-icons/fonts/Roboto-Regular.ttf);
+
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 :root{
   /* font family variables. */ 
-  --roboto: 'Roboto', cursive;
+  --roboto: 'Caveat', cursive;
   
 } 
 .whatIdo-img-div{align-items:center;justify-content:center}
@@ -255,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a {
   color: #b5afaf;
   padding: 0px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 #header .logo span {
@@ -282,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header .logo a {
     font-size: 19px;
-    font-family: "roboto", cursive;
+    font-family: "Caveat", cursive;
   }
 }
 
@@ -440,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
   padding: 0;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .navbar ul {
@@ -467,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .navbar a i {
@@ -945,7 +947,7 @@ h1, h2, h3, h4, h5, h6 {
   border:  solid transparent;
   border-radius: 39px;
   margin-top: 9px;
-  font-family: "roboto", cursive;
+  font-family: 'Caveat', cursive;
 
 }
 
@@ -1020,7 +1022,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 39px;
   margin-top: 13px;
   margin-bottom: 4px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .button.primary-button{
@@ -1029,7 +1031,7 @@ h1, h2, h3, h4, h5, h6 {
   color: whitesmoke;
   transition: .6s ease;
   box-shadow: 0px 10px 30px #c8233368;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .button.primary-button:hover{
@@ -1091,7 +1093,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .section-title h2::after {
@@ -1230,7 +1232,7 @@ section {
   color: #dc3545;
   padding-bottom: 6px;
   padding-top: 0px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 
@@ -1241,7 +1243,7 @@ section {
   color: #000000;
   padding-bottom: 10px;
   line-height: 38px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .about .content ul {
@@ -1274,7 +1276,7 @@ section {
   border-radius: 39px;
   margin-top: 10px;
   margin-bottom: 4px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .btn-about {
@@ -1291,7 +1293,7 @@ section {
   margin-bottom: 4px;
   color: rgb(0, 0, 0);
   background:linear-gradient(90deg, #e6717d 6%, #ffffff 100%);
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
  .btn-about:hover {
@@ -1773,13 +1775,13 @@ section {
   display: block;
   font-weight: 600;
   color: #011426;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .facts .count-box p {
   padding: 0;
   margin:0 0 20px 0;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
   font-size: 14px;
 }
 
@@ -1806,14 +1808,14 @@ section {
   font-weight: bold;
   margin: 8px 0 5px 0;
   color: #111;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 17px 0;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
@@ -1904,7 +1906,7 @@ section {
 
 
 .btn-education {
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
   text-transform: uppercase;
    font-weight: 600;
   font-size: 12px;
@@ -1935,7 +1937,7 @@ section {
   padding-top: 50px;
   padding-bottom: 0px;
   position: relative;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .resume-title p {
@@ -2055,7 +2057,7 @@ section {
   padding-top: 0px;
   padding-bottom: 0px;
   position: relative;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 
@@ -2217,7 +2219,7 @@ section {
   line-height: 1;
   font-size: 16px;
   color: rgb(0, 0, 0);
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .interests .icon-box:hover {
@@ -2308,7 +2310,7 @@ section {
   font-size: 26px;
   color: #fff;
   font-weight: 600;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -2318,7 +2320,7 @@ section {
   padding: 0;
   margin: 0;
   font-style: italic;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -2540,7 +2542,7 @@ section {
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 8px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
   position: relative;
 }
 
@@ -2550,7 +2552,7 @@ section {
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
   position: relative;
 }
 
@@ -2737,7 +2739,7 @@ section {
   font-size: .7rem;
   letter-spacing: .1px;
   margin-bottom: 0;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .card-blog .card-title {
@@ -2752,14 +2754,14 @@ section {
 
 .card-blog .post-author {
   display: inline-block;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 
 .card-blog .post-date {
   color: #4e4e4e;
   float: right;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 
@@ -2831,18 +2833,18 @@ section {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 #footer .credits {
   padding-top: 5px;
   font-size: 1px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 #footer .credits a {
   color: #e07f7f;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 
@@ -2937,14 +2939,14 @@ section {
   display:-ms-flexbox;
   display:flex;
   justify-content:flex-end;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .hire-area .hire-title{
   color:#f0f0f0;
   font-weight:700;
   margin-bottom:14px;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
   
 }
 
@@ -2995,7 +2997,7 @@ section {
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .team .member .member-info-content span {
@@ -3003,7 +3005,7 @@ section {
   display: block;
   font-size: 13px;
   color: #fff;
-  font-family: "roboto", cursive;
+  font-family: "Caveat", cursive;
 }
 
 .team .member .social {
@@ -3069,7 +3071,7 @@ section {
 .certs-body-div{display:flex;justify-content:space-between;flex-wrap:wrap}
 @media (max-width:1380px){.certs-header{font-size:35px}}
 
-@media (max-width:768px){.certs-body-div{flex-direction:column}.certs-header{font-size:30px}}.cert-card{width:30%;display:inline-block;justify-content:center;align-items:center;text-align:center;border:1px solid #d9dbdf;border-radius:5px;box-shadow:5px 5px 5px #d9dbdf;margin-bottom:30px;flex:0 0 30%}.cert-header{margin:0;border-radius:5px 5px 0 0}.logo_img{margin:3px;width:auto;height:100px}.cert-body{margin:0}.cert-body-title{font-size:20px}.cert-body-subtitle,.cert-body-title{font-family: "Poppins", sans-serif;}.cert-body-subtitle{color:grey}.content-cert{position:relative;width:100%;margin:auto;overflow:hidden}.content-cert .content-overlay{background:rgba(0,0,0,.7);position:absolute;height:99%;width:100%;left:0;top:0;bottom:0;right:0;opacity:0;transition:all .4s ease-in-out 0s}.content-cert:hover .content-overlay{opacity:1}.content-details{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;opacity:0;transform:translate(-50%,-50%);transition:all .3s ease-in-out 0s}.content-cert:hover .content-details{top:50%;left:50%;opacity:1}.content-details h3{color:#fff;font-weight:500;font-family:Google Sans Regular;letter-spacing:.15em;margin-bottom:.5em;text-transform:uppercase}.fadeIn-top{top:20%}@media (max-width:768px){.cert-card{width:100%}}
+@media (max-width:768px){.certs-body-div{flex-direction:column}.certs-header{font-size:30px}}.cert-card{width:30%;display:inline-block;justify-content:center;align-items:center;text-align:center;border:1px solid #d9dbdf;border-radius:5px;box-shadow:5px 5px 5px #d9dbdf;margin-bottom:30px;flex:0 0 30%}.cert-header{margin:0;border-radius:5px 5px 0 0}.logo_img{margin:3px;width:auto;height:100px}.cert-body{margin:0}.cert-body-title{font-size:16px}.cert-body-subtitle,.cert-body-title{font-family: "open sans", sans-serif;}.cert-body-subtitle{color:grey}.content-cert{position:relative;width:100%;margin:auto;overflow:hidden}.content-cert .content-overlay{background:rgba(0,0,0,.7);position:absolute;height:99%;width:100%;left:0;top:0;bottom:0;right:0;opacity:0;transition:all .4s ease-in-out 0s}.content-cert:hover .content-overlay{opacity:1}.content-details{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;opacity:0;transform:translate(-50%,-50%);transition:all .3s ease-in-out 0s}.content-cert:hover .content-details{top:50%;left:50%;opacity:1}.content-details h3{color:#fff;font-weight:500;font-family:Google Sans Regular;letter-spacing:.15em;margin-bottom:.5em;text-transform:uppercase}.fadeIn-top{top:20%}@media (max-width:768px){.cert-card{width:100%}}
 
 .organizations-header{font-size:40px;line-height:1.1;font-family:Google Sans Regular;text-align:center;margin-left:10px;margin-right:10px}@media (max-width:1380px){.organizations-header{font-size:35px}}@media (max-width:768px){.organizations-header{font-size:25px}}.dev-icons-orgs{padding-left:0;list-style:none;font-size:3rem;margin:50px 50px 0;text-align:center}.organizations-img{width:100px;height:auto}.organizations-inline{display:inline-block;margin-right:50px;margin-bottom:50px;font-family:Google Sans Regular}.organizations-inline:hover{transform:translateY(-5px)}@media (max-width:768px){.organizations-img{width:60px}.dev-icons-orgs{margin-left:20px;margin-right:20px}.organizations-inline{margin-right:30px;margin-bottom:30px}}
 .software-skill-inline{display:inline-block;margin-right:20px;margin-bottom:20px;font-family:Google Sans Regular}.software-skill-inline>i{color:#868e96}.software-skill-inline>i:hover{color:#645beb}.footer-text{text-align:center;font-weight:700;font-family:Google Sans Regular}
