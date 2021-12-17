@@ -1287,7 +1287,7 @@ section {
   padding: 12px 12px;
   border-radius: 50px;
   transition: 2s;
-  margin-top: 13px;
+  margin-top: 10px;
   margin-bottom: 4px;
   color: rgb(255, 255, 255);
   background: linear-gradient(10deg, #000000 70%, #000000 100%);
@@ -1362,7 +1362,6 @@ section {
   margin-top: 8px;
   box-shadow: 0 0 0 1px rgb(0, 0, 0);
   
- 
 }
 
 .portfolio .icon-box .icon {
@@ -1423,8 +1422,6 @@ section {
   margin-bottom: 0;
   color: #7fbbe0;
 }
-
-
 
 
 .portfolio .iconbox-blue i {
@@ -1669,8 +1666,6 @@ section {
 }
 
 
-
-
 .skills .info {
   width: 100%;
   padding-top: 9px;
@@ -1756,7 +1751,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #dc3545;
+  background: #000000;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -1780,6 +1775,7 @@ section {
   margin:0 0 20px 0;
   font-family: "roboto", cursive;
   font-size: 14px;
+
 }
 
 /*--------------------------------------------------------------
@@ -1796,7 +1792,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 170px;
   border-radius: 20%;
-  border: 4px solid #fff;
+  border: 4px solid rgb(0, 0, 0);
   margin: 0 auto;
 }
 
@@ -1879,29 +1875,45 @@ section {
     width: 60%;
     height: auto;
     margin-left: 70px;
-  }}
+  }
+}
 
 
-  @media (max-width: 992px) {
-    .resume .image-size{
-      width: 40%;
-      height: auto;
-      align-items: center;
-      margin-left: 100px;
+@media (max-width: 992px) {
+  .resume .image-size{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    margin-left: 100px;
 
-    }}
+  }
+}
 
-    @media (max-width: 992px) {
-      .resume .parul-image-size{
-        width: 60%;
-        height: auto;
-        align-items: center;
-        margin-left: 65px;
-  
-      }}
+@media (max-width: 992px) {
+  .resume .parul-image-size{
+    width: 60%;
+    height: auto;
+    align-items: center;
+    margin-left: 65px;
 
+  }
+}
 
-
+.btn-education-primary {
+  font-family: "roboto", cursive;
+  text-transform: uppercase;
+   font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 50px;
+  transition: 2s;
+  margin-top: 13px;
+  margin-bottom: 11px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
+}
 .btn-education {
   font-family: "roboto", cursive;
   text-transform: uppercase;
@@ -1914,13 +1926,19 @@ section {
   transition: 2s;
   margin-top: 13px;
   margin-bottom: 11px;
-  color: rgb(0, 0, 0);
-  background: linear-gradient(90deg, #e6717d 6%, #ffffff 100%);
+  color: rgb(255, 255, 255);
+  background: linear-gradient(10deg, #000000 70%, #000000 100%);
 
 }
- .btn-education:hover {
-  color: rgb(0, 0, 0);
-  background: linear-gradient(90deg, #e6717d 60%, #ffffff 100%);
+
+.btn-education:hover {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
+}
+
+.btn-education-primary:hover {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(10deg, #000000 70%, #000000 100%);
 }
 
 
@@ -2059,7 +2077,6 @@ section {
 
 
 
-
 /*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
@@ -2068,10 +2085,9 @@ section {
 .box-shadow-full {
   padding: 0rem 0rem;
   position: relative;
-  background-color: #ffffffd2;
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
   margin-bottom: 0rem;
   z-index: 2;
- 
   box-shadow: 0px 10px 30px #000000ef;
 }
 
@@ -2109,7 +2125,7 @@ section {
 
 .about-mf .about-me ul,p {
   padding-left: 20px;
-  color: #383737;
+  color: #ffffff;
 }
 
 .about-mf .about-me ul li {
@@ -2149,12 +2165,12 @@ section {
 
 .about-mf .resume-item h5 {
   font-size: 15px;
-   background: linear-gradient(90deg, #e6717d 6%, #ffffff 100%);
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #c82333;
+  color: #ffffff;
 }
 
 
