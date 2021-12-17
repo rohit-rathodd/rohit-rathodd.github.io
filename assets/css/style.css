@@ -17,14 +17,15 @@
 @font-face{
   font-family: "Roboto";
   src: url(../vendor/bootstrap-icons/fonts/comicz.ttf);
-
+  font-display: swap;
+  font-display: auto;
 }
 
 :root{
   /* font family variables. */ 
   --roboto: 'Roboto', cursive;
-  
-} 
+}
+
 .whatIdo-img-div{align-items:center;justify-content:center}
 
 @media (max-width: 992px) {
@@ -71,8 +72,6 @@
   margin-top: 10px;
 }
 }
-
-
 
 @media (max-width: 992px) {
   .svg-img-wid {
@@ -248,8 +247,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 40000;
   letter-spacing: 1px;
- 
- 
+
 }
 
 #header .logo a {
@@ -260,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo span {
   color: #c92a2a;
-  font-family:'Times New Roman', Times, serif;
+  font-family:"roboto", cursive;
   padding-right: 3px;
   font-size: 12px;
 }
@@ -281,8 +279,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #header .logo a {
-    font-size: 19px;
+    font-size: 20px;
     font-family: "roboto", cursive;
+    font-weight: normal;
   }
 }
 
@@ -461,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
@@ -651,9 +650,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a {
-  font-size: 15px;
+  font-size: 18px;
   padding-right: 15px;
   color: #ffffff;
+  
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -925,7 +925,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #b31010;
   margin: 27px 0 0 0;
   font-size: 30px;
-  
   margin-bottom: 41px;
   font: oblique 550 22px/ 32px var(--roboto);
 }
@@ -989,28 +988,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #hero h1 {
-    font-size: 44px;
+    font-size: 38px;
     line-height: 36px;
-    color: #000000;
-    font-weight: 660;
+    color: #000000b4;
+    font-weight: 100;
   }
   #hero h1 span{
-    color: #bb3232;
+    color: #bb3232ac;
   }
   #hero h2 {
-    font-size: 19px;
+    font-size: 16px;
     margin-top: 10px;
     line-height: 24px;
-    color: #000000;
+    color: #000000bf;
   }
+
   #hero p {
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 24px;
     color:#bb3232;
   }
 }
-
 
 .button{
   padding: .8rem 1.2rem;
@@ -1020,44 +1019,44 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 39px;
   margin-top: 13px;
   margin-bottom: 4px;
-  font-family: "roboto", cursive;
+  font-family: sans-serif;
 }
 
 .button.primary-button{
-  background: linear-gradient(20deg, #000000bf 30%, #ff0019 100%);
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
   background-clip: padding-box;
   color: whitesmoke;
   transition: .6s ease;
-  box-shadow: 0px 10px 30px #c8233368;
+  box-shadow: 0px 10px 30px #00000068;
   font-family: "roboto", cursive;
 }
 
 .button.primary-button:hover{
-  background: linear-gradient(180deg, #e6717d 6%, #ffffff 100%);
+  background: linear-gradient(190deg, #000000 10%, #0f0000 100%);
   background-clip: padding-box;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .button.primary-button::after,.button.secondary-button::after{
   position: absolute;
   top: -1px; left: -1px;
   bottom: -1px;  right: -1px;
-  background: linear-gradient(90deg, #000000 0%, #dc2929 100%);
+  background: linear-gradient(90deg, #000000 0%, #000000 100%);
   content: ' ';
   z-index: -1;
   border-radius: 39px;
 }
 
 .button.secondary-button{
-  background: linear-gradient(130deg, #f80921 10%, #ffffff 70%);
+  background: linear-gradient(10deg, #000000 70%, #000000 100%);
   background-clip: padding-box;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: .6s ease;
-  box-shadow: 0px 10px 30px #c8233353;
+  box-shadow: 0px 10px 30px #87858553;
 }
 
 .button.secondary-button:hover{
-  background: linear-gradient(130deg, #000000bf 20%, #ff0019 100%);
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
   background-clip: padding-box;
   color: whitesmoke;
 }
@@ -1225,12 +1224,13 @@ section {
 }
 
 .about .content h2 {
-  font-weight: 0;
+  font-family: "roboto", cursive;
+  font-weight: 100;
   font-size: 22px;
   color: #dc3545;
   padding-bottom: 6px;
   padding-top: 0px;
-  font-family: "roboto", cursive;
+  
 }
 
 
@@ -1265,22 +1265,22 @@ section {
 }
 
 .about .button{
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto", cursive;
   padding: 13px 16px;
-  font-weight: 550;
+  font-weight: 450;
   font-size: 15px;
   position: relative;
   border:  solid transparent;
   border-radius: 39px;
   margin-top: 10px;
   margin-bottom: 4px;
-  font-family: "roboto", cursive;
+  
 }
 
 .btn-about {
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto", cursive;
   text-transform: uppercase;
-   font-weight: 600;
+   font-weight: 100;
   font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
@@ -1289,21 +1289,20 @@ section {
   transition: 2s;
   margin-top: 13px;
   margin-bottom: 4px;
-  color: rgb(0, 0, 0);
-  background:linear-gradient(90deg, #e6717d 6%, #ffffff 100%);
-  font-family: "roboto", cursive;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(10deg, #000000 70%, #000000 100%);
+ 
 }
 
  .btn-about:hover {
-  color: rgb(0, 0, 0);
-  background: linear-gradient(170deg, #ff9595 10%, #ffffff 100%);
+  color: rgb(255, 255, 255);
+  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
 }
 
 .about .info h4 {
   padding: 0 0 0 0px;
   font-size: 18px;
   font-weight: 600;margin-top: 10px;
-
   margin-bottom: 0px;
   color: #222222;
 }
