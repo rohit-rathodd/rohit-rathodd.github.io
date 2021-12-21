@@ -3206,3 +3206,11 @@ section {
 
 .dev-icons{padding-left:0;list-style:none;font-size:3rem;margin-bottom:0;margin-top:0;text-align:center}
 
+
+:root {
+  --swiper-theme-color: #007aff
+}
+
+:root {
+  --swiper-navigation-size: 44px
+}
