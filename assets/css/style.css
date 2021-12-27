@@ -3199,7 +3199,6 @@ section {
 
 .dev-icons{padding-left:0;list-style:none;font-size:3rem;margin-bottom:0;margin-top:0;text-align:center}
 
-
 :root {
   --swiper-theme-color: #007aff
 }
@@ -3207,3 +3206,117 @@ section {
 :root {
   --swiper-navigation-size: 44px
 }
+ 
+
+
+
+
+
+
+
+.bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(33, 35, 36, var(--tw-bg-opacity));
+}
+ 
+.border-gray-700 {
+    --tw-border-opacity: 1;
+    border-color: rgba(47, 49, 51, var(--tw-border-opacity));
+}
+ 
+.border-dashed {
+    border-style: dashed;
+}
+ 
+.border-t {
+    border-top-width: 1px;
+}
+ 
+.border-b {
+    border-bottom-width: 1px;
+}
+ 
+* {
+    --tw-shadow: 0 0 #0000;
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+ 
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+ 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+ 
+body {
+    font-family: inherit;
+    line-height: inherit;
+}
+ 
+body {
+    font-family: system-ui, -apple-system, /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+ 
+:root {
+    --color-calendar-graph-day-bg: #dddbdb;
+    --color-calendar-graph-day-L1-bg: #39dd34;
+    --color-calendar-graph-day-L2-bg: #45a045;
+    --color-calendar-graph-day-L3-bg: #047526;
+    --color-calendar-graph-day-L4-bg: #0a4208;
+}
+ 
+:root {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+ 
+html {
+    --tw-bg-opacity: 1;
+  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+ 
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+ 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+ 
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+ 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    --tw-bg-opacity: 1;
+    background-color: rgba(253, 45, 120, var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
