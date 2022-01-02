@@ -2979,13 +2979,22 @@ section {
 
 
 .hire-area{
-  background: url("../img/about/rohitrathodd.jpg") top right ;
+  background: url("../img/about/rohitrathodd.jpg");
   background-attachment: fixed;
-  padding-bottom:68px;
-  padding-top:68px
+  padding-bottom:88px;
+  padding-top:88px;
+  background-position:50% 2%;
+  background-size: cover;
   
 }
 
+@media (max-width:600px) {
+  .hire-area{
+    padding-bottom:68px;
+    padding-top:68px;
+    background-position:60% 15%;    
+  }
+}
 
 .hire-area .row-custom{
   -ms-flex-align:center;
@@ -3009,7 +3018,7 @@ section {
 }
 
 .hire-area .hire-description{
-  color:#9f9f9f;
+  color:#656565;
   font-size:15px;
   margin-bottom:0
 }
