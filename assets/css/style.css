@@ -1990,12 +1990,12 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: linear-gradient(10deg, #ffffff9e 70%, #000000fa 100%);
+  background: linear-gradient(10deg, #000000 70%, #ff0000fa 100%);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #383737;
+  color: #ffffff;
 }
 
 .resume .resume-item ul {
@@ -2977,19 +2977,23 @@ section {
 
 } 
 
+#hire-area.lazyload{
+  background-image: none;
+}
 
-.hire-area{
-  background: url("../img/about/rohitrathodd.jpg");
+#hire-area{
+  background: url("../img/about/rohitrathodd.webp");
+  background-size: cover;
   background-attachment: fixed;
   padding-bottom:88px;
   padding-top:88px;
   background-position:50% 2%;
-  background-size: cover;
+  
   
 }
 
 @media (max-width:600px) {
-  .hire-area{
+  #hire-area{
     padding-bottom:68px;
     padding-top:68px;
     background-position:60% 15%;    
