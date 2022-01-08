@@ -1358,7 +1358,7 @@ section {
 .portfolio .icon-box {
   text-align: center;
   padding:  20px 20px 30px 20px;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.25s;
   background: #ffffff00;;
   margin-top: 8px;
   box-shadow: 0px 0px 0px 1px #000000ef;
@@ -1372,14 +1372,14 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
   position: relative;
   cursor: pointer;
 }
 
 .portfolio .icon-box .icon i {
   font-size: 59px;
-  transition: 0.5s;
+  transition: all ease-out 0.3s;
   position: relative;
 }
 
@@ -1390,12 +1390,12 @@ section {
 }
 
 .portfolio .icon-box .icon svg path {
-  transition: 0.5s;
+  transition: 0.9s;
   fill: #ffffffc1;
 }
 
 .portfolio .icon-box .icon .new-svg svg  {
-  transition: 0.7s;
+  transition: 0.9s;
   position: relative;
   left: 3px;
 }
@@ -1409,7 +1409,7 @@ section {
 
 .portfolio .icon-box h4 a {
   color: #000000;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.05s;
 }
 
 .portfolio .icon-box h4 a:hover {
@@ -2978,7 +2978,7 @@ section {
 } 
 
 #hire-area.lazyload{
-  background-image: none;
+  background: url("../img/about/rohitrathodd.webp");
 }
 
 #hire-area{
