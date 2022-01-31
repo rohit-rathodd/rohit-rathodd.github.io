@@ -2,7 +2,6 @@
 <title>The Ultimate Guide to SEO Meta Tags - Moz</title>
 <meta name="description" content="In 2019, meta tags are still important. But which meta tags are absolutely necessary, which are dependent on your situation, and which should you absolutely ignore or remove?">
 
-
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="robots" content="all">
 <meta content="https://www.facebook.com/moz/about/" property="fb:profile_id">
@@ -42,6 +41,4 @@
 <link href="https://moz.com/assets/dist/styles/moz-91ba3361.min.css" rel="stylesheet">
 <link href="https://moz.com/assets/dist/styles/print-6f6e9585.min.css" rel="stylesheet" media="print"></head>
 
-
-
-        Programmer portfolio, personal site by Mateusz Zbylut, good blog and more. Java, web developer and mobile application developer. Blog about programming.
+Programmer portfolio, personal site by Mateusz Zbylut, good blog and more. Java, web developer and mobile application developer. Blog about programming.
