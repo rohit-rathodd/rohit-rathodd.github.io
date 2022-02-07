@@ -4920,6 +4920,14 @@ figcaption {
   align-items: center;
 }
 
+._1-column-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 28px;
+}
+
 ._2-column-grid {
   display: -ms-grid;
   display: grid;
@@ -4985,9 +4993,21 @@ figcaption {
   right: auto;
   bottom: 0%;
   width: 100%;
-  max-width: 900px;
+  max-width: 950px;
   min-height: 112%;
   margin-top: -35px;
+  border-radius: 24px;
+  background-color: #f6f7ff;
+}
+
+.bg.academic-square {
+  left: auto;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  width: 100%;
+  max-width: 90%;
+  min-height: 100%;
   border-radius: 24px;
   background-color: #f6f7ff;
 }
