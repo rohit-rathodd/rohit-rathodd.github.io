@@ -126,9 +126,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
 
 #main {
   margin-top: 50px;
@@ -452,19 +449,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero h1 {
-  margin: 0;
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 56px;
-  color: #000000;
-  font: normal bold 58px/ 62px var(--roboto);
-}
-
-#hero h1 span{
-  color: #bb3232;
-}
-
 #hero h2 {
   color: #000000;
   margin: 10px 0 0 0;
@@ -539,15 +523,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
   }
 
-  #hero h1 {
-    font-size: 38px;
-    line-height: 36px;
-    color: #000000b4;
-    font-weight: 100;
-  }
-  #hero h1 span{
-    color: #bb3232ac;
-  }
+ 
   #hero h2 {
     font-size: 16px;
     margin-top: 10px;
@@ -677,181 +653,6 @@ section {
 # About
 --------------------------------------------------------------*/
 
-@media (min-width: 992px){ .about .svg-content{margin-top: 120px;}}
-@media (min-width: 992px){ .about .svg-img{margin-left: 130px;margin-bottom: 160px;}}
-
-@media (min-width: 992px) {
-  .about .image-size{
-    width: 34%;
-    height: auto;
-
-  }}
-
-
-
-@media (min-width:  1200px) {
-  .about .image-padding {
-   margin-left: 30px;
-   margin-top: 30px;
-   
-    }
-  }
-  
-
-@media (min-width: 1200px) {
-  .about .content {
-   margin-left: 115px;
-    }
-  }
-
-
-  @media (min-width: 992px) {
-    .about .content {
-     margin-left: 115px;
-      }
-  }
-
-  @media (max-width: 992px) {
-    .about .content {
-     margin-top: 20px;
-     
-      }
-  }
-
-    
-.about-line {
-  margin-top: 20px;
-  border-bottom: 2px solid #ff0000;
-  position: relative;
-  margin-bottom: 30px;
-
-}
-
-.about .content h2 {
-  font-family: "roboto", cursive;
-  font-weight: 100;
-  font-size: 22px;
-  color: #ff0000;
-  padding-bottom: 6px;
-  padding-top: 0px;
-  
-}
-
-
-
-.about .content h3 {
-  font-weight: 700;
-  font-size: 27px;
-  color: #000000;
-  padding-bottom: 10px;
-  line-height: 38px;
-  font-family: "roboto", cursive;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-}
-
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #ff0000;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-  padding-bottom: 20px;
-}
-
-.about .button{
-  font-family: "roboto", cursive;
-  padding: 13px 16px;
-  font-weight: 450;
-  font-size: 14px;
-  position: relative;
-  border:  solid transparent;
-  border-radius: 39px;
-  margin-top: 10px;
-  margin-bottom: 4px;
-  
-}
-
-.btn-about {
-  font-family: "roboto", cursive;
-  text-transform: uppercase;
-   font-weight: 100;
-  font-size: 12px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 12px;
-  border-radius: 50px;
-  transition: 2s;
-  margin-top: 10px;
-  margin-bottom: 4px;
-  color: rgb(255, 255, 255);
-  background: linear-gradient(10deg, #000000 70%, #000000 100%);
- 
-}
-
- .btn-about:hover {
-  color: rgb(255, 255, 255);
-  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
-}
-
-.about .info h4 {
-  padding: 0 0 0 0px;
-  font-size: 18px;
-  font-weight: 600;margin-top: 10px;
-  margin-bottom: 0px;
-  color: #222222;
-}
-
-.about .info i {
-  font-size: 23px;
-  color: #ff0000;
-  float: left;
-  width: 70px;
-  height: 54px;
-  background: #effbf9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.about .social-links {
-  margin-top: 30px;
-}
-
-.about .info .social-links a {
-  font-size: 28px;
-  display: inline-block;
-  line-height: 1;
-  margin-top: 0px;
-  margin-right: 8px;
-  padding-bottom: 29px;
-}
-
-.about .social-links i:hover {
-  background: #ff0000;
-  color: #ffffff;
-}
-
-.about .logo  img {
-  max-height: 28px;
-  padding: 0px;
-}
-
-.about .logo img:hover {
-  background: #ffffff;
-  color: #dddddd;
-}
 
 
 /*--------------------------------------------------------------
@@ -1548,89 +1349,6 @@ section {
  
   }
 
-.about-mf .about-info i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #dc3545;
-}
-
-
-.about-mf .about-me {
-  padding-left: 22px;
-}
-
-.about-mf .about-me ul,p {
-  padding-left: 20px;
-  color: #777990;
-}
-
-.about-mf .about-me ul li {
-  padding-bottom: 8px;
-}
-
-
-
-.about-mf .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #e07f7f;
-  position: relative;
-}
-
-
-.about-mf .resume-item h3 {
-  line-height: 24px;
-  font-size: 19px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #000000;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  padding-top: 0px;
-}
-
-.about-mf .resume-item h4 {
-  line-height: 22px;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #dc3545;
-  margin-bottom: 10px;
-  padding-top: 0px;
-}
-
-.about-mf .resume-item h5 {
-  font-size: 15px;
-  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-
-
-.about-mf .box-shadow-full {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-.about-mf .about-img {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 1px;
-}
-
-@media (min-width: 767px) {
-  .about-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-  }
-}
-
 
 
 /*--------------------------------------------------------------
@@ -1687,30 +1405,7 @@ section {
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 16px 10px 16px;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: linear-gradient(10deg, #000000 70%, #000000 100%);
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 50px;
-  
-}
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: linear-gradient(10deg, #000000 70%, #ff0000 100%);
-}
-
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;

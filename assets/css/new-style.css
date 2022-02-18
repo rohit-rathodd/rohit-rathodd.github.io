@@ -263,19 +263,17 @@ figcaption {
   background-color: #fff;
 }
 
+
 .style-guide-sidebar {
   position: -webkit-sticky;
   position: sticky;
-  top: 32px;
-  z-index: 2;
-  height: 100%;
-  min-height: 96vh;
-  margin-right: 16px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 14em;
-  -ms-flex: 0 14em;
-  flex: 0 14em;
+  top: 70px;
+  
+  overflow: hidden;
+  align-items: center;
+  background-color: rgb(122, 56, 56);
 }
+
 
 .container-default {
   max-width: 1248px;
@@ -737,7 +735,8 @@ figcaption {
 
 .section.utility-page {
   padding-top: 64px;
-  background-color: #f6f7ff;
+  background-color: #EBF8FF
+  ;
 }
 
 .section.hero-section {
@@ -2384,6 +2383,7 @@ figcaption {
 }
 
 .top-content {
+  
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3558,9 +3558,7 @@ figcaption {
     padding-left: 45px;
   }
 
-  .style-guide-sidebar {
-    display: none;
-  }
+
 
   .container-default {
     -webkit-box-orient: vertical;
@@ -4920,7 +4918,7 @@ figcaption {
   }
 
   .image-wrapper.instagram-section.hide-mobile {
-    display: none;
+    
   }
 
   .image-wrapper.shop {
