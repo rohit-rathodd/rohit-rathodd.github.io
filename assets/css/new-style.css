@@ -6334,3 +6334,32 @@ figcaption {
     grid-column-end: span 1;
   }
 }
+
+#portfolio-flters li {
+  border-style: none;
+  border-radius: 500px;
+  background-color: #f6f7ff;
+  -webkit-transition: background-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease, transform 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+  color: #4e4b66;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+#portfolio-flters li:hover, #portfolio-flters li.filter-active {
+  border-color: #14142b;
+  background-color: #14142b;
+  -webkit-transform: translate(0px, -6px);
+  -ms-transform: translate(0px, -6px);
+  transform: translate(0px, -6px);
+  color: #fff;
+}
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+
