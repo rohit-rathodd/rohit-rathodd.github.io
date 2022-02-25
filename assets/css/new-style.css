@@ -30,6 +30,7 @@ h3{font-size:24px;line-height:30px;margin-top:20px}h4{font-size:18px;line-height
 .w-nav-button{display:block}.w--nav-dropdown-open{display:block}.w--nav-dropdown-toggle-open{display:block}.w--nav-dropdown-list-open{position:static}@media screen and (max-width:991px){.w-nav[data-collapse="medium"] .w-nav-menu{display:none}.w-nav[data-collapse="medium"] .w-nav-button{display:block}}@media screen and (max-width:767px){.w-nav[data-collapse="small"] .w-nav-menu{display:none}.w-nav[data-collapse="small"] .w-nav-button{display:block}.w-nav-brand{padding-left:10px}}@media screen and (max-width:479px){.w-nav[data-collapse="tiny"] .w-nav-menu{display:none}.w-nav[data-collapse="tiny"] .w-nav-button{display:block}}.w-tabs{position:relative}.w-tabs:before,.w-tabs:after{content:" ";display:table;grid-column-start:1;grid-row-start:1;grid-column-end:2;grid-row-end:2}.w-tabs:after{clear:both}.w-tab-menu{position:relative}.w-tab-link{position:relative;display:inline-block;vertical-align:top;text-decoration:none;padding:9px 30px;text-align:left;cursor:pointer;color:#222222;background-color:#dddddd}.w-tab-link.w--current{background-color:#C8C8C8}.w-tab-link:focus{outline:0}.w-tab-content{position:relative;display:block;overflow:hidden}.w-tab-pane{position:relative;display:none}.w--tab-active{display:block}@media screen and (max-width:479px){.w-tab-link{display:block}}.w-ix-emptyfix:after{content:""}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.w-dyn-empty{padding:10px;background-color:#dddddd}.w-dyn-hide{display:none !important}.w-dyn-bind-empty{display:none !important}.w-condition-invisible{display:none !important}
 
 
+ 
 body {
   font-family: Satoshi, sans-serif;
   color: #777990;
@@ -5504,7 +5505,8 @@ figcaption {
   }
 
   .button-secondary {
-    width: 100%;
+    width: 90%;
+    
   }
 
   .button-secondary.category {
@@ -6360,6 +6362,37 @@ figcaption {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 
+.caption {
+  color: #777990;
+  font-weight: bold;
+  display: inline-block;
+ 
+}
+
+@media (max-width:467px) {
+  .caption {
+    font-size: 10px;
+    padding-top: 0.1em;
+    line-height: 15px;
+  }
+}
+
+@media (min-width:467px) {
+  .caption {
+    font-size: 13px;
+    padding-top: 0.1em;
+    line-height: 15px;
+  }
+}
+
+@media (min-width:992px) {
+  .caption {
+    font-size: 15px;
+    padding-top: 0.2em;
+    line-height: 15px;
+  }
+}

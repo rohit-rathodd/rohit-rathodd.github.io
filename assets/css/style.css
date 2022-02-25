@@ -1399,7 +1399,19 @@ section {
 }
 
 
-
+.lightboximage  {
+  display: inline-flex;
+  flex-direction: column;
+  text-decoration: none;
+  }
+  
+  .caption {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: .5em;
+  }
 
 /*--------------------------------------------------------------
 # Portfolio Details
