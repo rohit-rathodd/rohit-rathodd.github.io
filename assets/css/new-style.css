@@ -6335,7 +6335,6 @@ figcaption {
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
-<<<<<<< HEAD
 }
 
 #portfolio-flters li {
@@ -6397,6 +6396,3 @@ figcaption {
     line-height: 15px;
   }
 }
-=======
-}
->>>>>>> parent of f864335 (gallery changed)
