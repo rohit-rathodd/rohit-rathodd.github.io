@@ -1,0 +1,64 @@
+{
+    "short_name": "Rohit Rathod",
+    "name": "Rohit Rathod - A Student",
+    "description":"I am Rohit Rathod, A student who loves to code.",
+    
+    "icons": [
+    {
+     "src": "/assets/img/icon-36.jpg",
+     "sizes": "36x36",
+     "type": "image/jpg",
+     "density": "0.75",
+     "purpose": "any maskable"
+    },
+    {
+     "src": "assets/img/icon-48.jpg",
+     "sizes": "48x48",
+     "type": "image/jpg",
+     "density": "1.0",
+     "purpose": "any maskable"
+    },
+    {
+     "src": "/assets/img/icon-72.jpg",
+     "sizes": "72x72",
+     "type": "image/jpg",
+     "density": "1.5",
+     "purpose": "any maskable"
+    },
+    {
+     "src": "/assets/img/icon-96.jpg",
+     "sizes": "96x96",
+     "type": "image/png",
+     "density": "2.0",
+     "purpose": "any maskable"
+    },
+    {
+     "src": "/assets/img/icon-144.jpg",
+     "sizes": "144x144",
+     "type": "image/png",
+     "density": "3.0",
+     "purpose": "any maskable"
+    },
+    {
+     "src": "/assets/img/icon-192.jpg",
+     "sizes": "192x192",
+     "type": "image/png",
+     "density": "4.0",
+     "purpose": "any maskable"
+    },
+    {
+     "src": "/assets/img/icon-512.jpg",
+     "sizes": "512x512",
+     "type": "image/png",
+     "density": "4.0",
+     "purpose": "any maskable"
+    }
+   ],
+
+    "start_url": "https://rohitrathodd.github.io/",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000",
+    "background_color": "black"
+    
+  }

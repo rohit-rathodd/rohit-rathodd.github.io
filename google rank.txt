@@ -1,0 +1,44 @@
+
+<title>The Ultimate Guide to SEO Meta Tags - Moz</title>
+<meta name="description" content="In 2019, meta tags are still important. But which meta tags are absolutely necessary, which are dependent on your situation, and which should you absolutely ignore or remove?">
+
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="robots" content="all">
+<meta content="https://www.facebook.com/moz/about/" property="fb:profile_id">
+<meta content="en_US" property="og:locale">
+<meta content="Moz" property="og:site_name">
+<meta content="article" property="og:type">
+<meta content="https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags" property="og:url">
+
+<meta content="The Ultimate Guide to SEO Meta Tags" property="og:title">
+<meta content="In 2019, meta tags are still important. But which meta tags are absolutely necessary, which are dependent on your situation, and which should you absolutely ignore or remove?" property="og:description">
+<meta content="https://moz-static.s3.amazonaws.com/blog/banners/_1200x630_crop_center-center_82_none/search-engines-5511dd3_2021-03-30-220144.png?mtime=20210330150151&amp;focal=none&amp;tmtime=20210628145917" property="og:image">
+<meta content="1200" property="og:image:width">
+<meta content="630" property="og:image:height">
+
+<meta content="https://www.instagram.com/moz_hq/" property="og:see_also">
+<meta content="https://www.youtube.com/channel/UCs26XZBwrSZLiTEH8wcoVXw" property="og:see_also">
+<meta content="https://www.linkedin.com/company/moz/" property="og:see_also">
+<meta content="https://www.facebook.com/moz/" property="og:see_also">
+<meta content="https://twitter.com/Moz" property="og:see_also">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Moz">
+<meta name="twitter:creator" content="@Moz">
+<meta name="twitter:title" content="The Ultimate Guide to SEO Meta Tags">
+<meta name="twitter:description" content="In 2019, meta tags are still important. But which meta tags are absolutely necessary, which are dependent on your situation, and which should you absolutely ignore or remove?">
+<meta name="twitter:image" content="https://moz-static.s3.amazonaws.com/blog/banners/_800x418_crop_center-center_82_none/search-engines-5511dd3_2021-03-30-220144.png?mtime=20210330150151&amp;focal=none&amp;tmtime=20210628145917">
+<meta name="twitter:image:width" content="800">
+<meta name="twitter:image:height" content="418">
+
+<meta name="google-site-verification" content="chSe80_PxsxsISJaPjTi2fNnSZcyMM-uVr5TVIjXIT4">
+
+
+<link href="https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags" rel="canonical">
+<link href="https://moz.com" rel="home">
+<link type="text/plain" href="https://moz.com/humans.txt" rel="author">
+<link href="https://moz.com/assets/dist/styles/reboot-174cbd7d.min.css" rel="stylesheet">
+<link href="https://moz.com/assets/dist/styles/moz-91ba3361.min.css" rel="stylesheet">
+<link href="https://moz.com/assets/dist/styles/print-6f6e9585.min.css" rel="stylesheet" media="print"></head>
+
+Programmer portfolio, personal site by Mateusz Zbylut, good blog and more. Java, web developer and mobile application developer. Blog about programming.
